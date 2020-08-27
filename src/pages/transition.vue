@@ -8,9 +8,16 @@
 </route>
 <template>
   <div>
-      <div class='div' :class="add ? 'divadd': ''"></div>
-  <button @click="addn">加</button>
-  <button @click="daddn">减</button>
+    <div
+      class="div"
+      :class="add ? 'divadd': ''"
+    />
+    <button @click="addn">
+      加
+    </button>
+    <button @click="daddn">
+      减
+    </button>
   </div>
 </template>
 

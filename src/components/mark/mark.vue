@@ -1,6 +1,13 @@
 <template>
-  <div class="app-mark" @click="close" :class="show ? 'show': 'hide'">
-    <slot name="center" class="center" />
+  <div
+    class="app-mark"
+    @click="close"
+    :class="show ? 'show': 'hide'"
+  >
+    <slot
+      name="center"
+      class="center"
+    />
   </div>
 </template>
 

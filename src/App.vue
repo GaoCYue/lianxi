@@ -1,11 +1,16 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link v-for='item in pageRoutes' :key='item.path'
-      class="nav-item"
-      :to="`/${item.path}`">{{item.meta.linkNmae}}</router-link>
+      <router-link
+        v-for="item in pageRoutes"
+        :key="item.path"
+        class="nav-item"
+        :to="`/${item.path}`"
+      >
+        {{ item.meta.linkNmae }}
+      </router-link>
     </div>
-    <router-view class="fill"/>
+    <router-view class="fill" />
   </div>
 </template>
 

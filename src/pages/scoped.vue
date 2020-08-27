@@ -7,9 +7,9 @@
 }
 </route>
 <template>
-  <div id='warp'>
-        <div id="shadow"></div>
-    </div>
+  <div id="warp">
+    <div id="shadow" />
+  </div>
 </template>
 
 <script>
