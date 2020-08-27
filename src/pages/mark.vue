@@ -32,7 +32,7 @@ import Mark from '../components/mark/mark'
 
 export default {
   components: {
-    Mark,
+    Mark
   }
 }
 </script>

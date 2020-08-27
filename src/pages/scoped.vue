@@ -1,8 +1,8 @@
 <route>
 {
-  "name": "shadow",
+  "name": "scoped",
   "meta": {
-    "linkNmae": "shadow&overflows"
+    "linkNmae": "scoped"
   }
 }
 </route>
@@ -33,5 +33,4 @@ export default {
     margin-right: 10px;
     box-shadow: 0 0 10px 0 #333;
 }
-
 </style>

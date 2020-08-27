@@ -18,12 +18,12 @@
 <script>
 export default {
   data () {
-      return {
-          value1: [],
-          value2: true
-      }
+    return {
+      value1: [],
+      value2: true
+    }
   }
-};
+}
 </script>
 
 <style>

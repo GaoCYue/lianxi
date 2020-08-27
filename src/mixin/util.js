@@ -1,11 +1,11 @@
 export default {
   methods: {
-    delay(millsecond) {
+    delay (millsecond) {
       return new Promise((resolve) => {
         setTimeout(() => {
-          resolve(millsecond);
-        }, millsecond);
-      });
-    },
-  },
-};
+          resolve(millsecond)
+        }, millsecond)
+      })
+    }
+  }
+}

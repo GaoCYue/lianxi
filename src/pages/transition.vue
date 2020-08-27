@@ -16,20 +16,20 @@
 
 <script>
 export default {
-    data () {
-        return {
-            add: false
-        }
-    },
-    methods: {
-        addn() {
-            this.add = true
-        },
-        daddn() {
-            this.add = false
-        }
+  data () {
+    return {
+      add: false
     }
-};
+  },
+  methods: {
+    addn () {
+      this.add = true
+    },
+    daddn () {
+      this.add = false
+    }
+  }
+}
 </script>
 
 <style scoped>
@@ -41,6 +41,6 @@ export default {
     transition: height 3s;
 }
 .div.divadd{
-    height: 600px;
+    height: 1600px;
 }
 </style>

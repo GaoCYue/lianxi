@@ -13,12 +13,12 @@ export default {
     }
   },
   methods: {
-    close() {
+    close () {
       this.show = false
       console.log('close')
       console.log(this.show)
     },
-    open() {
+    open () {
       this.show = true
       console.log('open')
       console.log(this.show)
@@ -36,7 +36,7 @@ export default {
   top: 0;
   left: 0;
   background-color: rgba(0,0,0,.3);
-  
+
 }
 .app-mark .center {
   position: absolute;

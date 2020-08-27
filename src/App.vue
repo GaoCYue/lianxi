@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link v-for='item in links' :key='item.path'
+      <router-link v-for='item in pageRoutes' :key='item.path'
       class="nav-item"
       :to="`/${item.path}`">{{item.meta.linkNmae}}</router-link>
     </div>
@@ -12,9 +12,15 @@
 <script>
 import routes from 'vue-auto-routing'
 export default {
-  data(){
+  data () {
     return {
       links: routes
+    }
+  },
+  computed: {
+    pageRoutes () {
+      console.log(this.links)
+      return this.links.filter(item => item.meta)
     }
   }
 }
@@ -41,6 +47,7 @@ html,body {
 #nav {
   padding: 30px;
   width: 200px;
+  flex-shrink: 0;
 }
 .nav-item {
   display: block;
